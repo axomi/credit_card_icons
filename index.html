@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Credit card icons by axomi</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Credit card icons</h1>
+        <p>Credit card icons for Rails 3 as an engine, using CSS sprites with icons in various sizes and shapes</p>
+
+        <p class="view"><a href="https://github.com/axomi/credit_card_icons">View the Project on GitHub <small>axomi/credit_card_icons</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/axomi/credit_card_icons/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/axomi/credit_card_icons/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/axomi/credit_card_icons">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Credit Card icons</h1>
+
+<p>Credit Card icons for Rails 3.</p>
+
+<p>This gem is a Rails 3 engine and includes a host of asset files including standalone image sets (icons), CSS sprites and stylesheets for the CSS sprites.</p>
+
+<h2>Usage</h2>
+
+<p>In <code>Gemfile</code>.</p>
+
+<p><code>gem 'credit_card_icons'</code></p>
+
+<p>Install via bundler:</p>
+
+<p><code>bundle</code></p>
+
+<p>Include the stylesheet(s) of choice in your Rails 3 stylesheets application manifest file, fx <code>application.css</code> or similar:</p>
+
+<div class="highlight"><pre><span class="c">/*</span>
+<span class="c"> *= require credit_cards_default</span>
+<span class="c">*/</span>
+</pre></div>
+
+<p>Using <em>Compass</em>, include stylesheet(s) via <code>@import 'credit_cards_default';</code> instead.</p>
+
+<p>Use the cards via CSS classes like this:</p>
+
+<h2>Stylesheets available</h2>
+
+<ul>
+<li>credit_cards_default (24x24)</li>
+<li>credit_cards_24 (24x24)</li>
+<li><p>credit_cards_32 (32x32)</p></li>
+<li><p>straight_cards_32 (51x32)</p></li>
+<li><p>straight_cards_64 (102x64)</p></li>
+<li><p>straight_cards_128 (204x128)</p></li>
+<li><p>curved_cards_32 (51x32)</p></li>
+<li><p>curved_cards_64 (102x64)</p></li>
+<li><p>curved_cards_128 (204x128)</p></li>
+</ul><h3>Default</h3>
+
+<div class="highlight"><pre><span class="nt">%ul</span><span class="nc">.cc</span>
+    <span class="nt">%li</span><span class="nc">.card.mastercard</span>
+</pre></div>
+
+<p>Also sizes 32 and 64 and 128px wide, use: <code>cc_24</code> and <code>cc_32</code></p>
+
+<h3>Straight</h3>
+
+<p>Sizes 32, 64 and 128px wide, use: <code>cc_32</code>, <code>cc_64</code> or <code>cc_128</code>.</p>
+
+<div class="highlight"><pre><span class="nt">%ul</span><span class="nc">.cc_64</span>
+  <span class="nt">%li</span><span class="nc">.straight_card.mastercard</span>
+</pre></div>
+
+<h3>Curved</h3>
+
+<p>Sizes 32, 64 and 128px wide.</p>
+
+<div class="highlight"><pre><span class="nt">%ul</span><span class="nc">.cc_64</span>
+  <span class="nt">%li</span><span class="nc">.curved_card.mastercard</span>
+</pre></div>
+
+<p>Not that here the HTML structure is defined using <em>HAML</em> syntax.</p>
+
+<p>Please see the asset directory css files for how to use your stylesheet of choice.
+Feel free to improve this gem by modifying the css rules and/or include view helpers etc.</p>
+
+<h2>Contributing to credit_card_icons</h2>
+
+<ul>
+<li>Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.</li>
+<li>Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.</li>
+<li>Fork the project.</li>
+<li>Start a feature/bugfix branch.</li>
+<li>Commit and push until you are happy with your contribution.</li>
+<li>Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.</li>
+<li>Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.</li>
+</ul><h2>Copyright</h2>
+
+<p>Copyright (c) 2012 Kristian Mandrup. See LICENSE.txt for
+further details.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/axomi">axomi</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
